@@ -1,7 +1,7 @@
 
 html{
 	height: 100vh;
-   max-width: 99vw;
+   max-width: 100vw;
 	font-size: 20px;
 
 }
@@ -173,7 +173,7 @@ html{
 	left: 48%;
     width: 0;
     border: 1px dashed black;
-    height: 120%;
+    height: 100%;
     z-index: 1;
 }
  
