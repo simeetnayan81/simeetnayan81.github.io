@@ -1,0 +1,206 @@
+
+html{
+	height: 100vh;
+   max-width: 99vw;
+	font-size: 20px;
+
+}
+#base{
+	height: 100vh;
+    
+}
+#cont{
+	height: 100%;
+    max-width: 100%;
+    
+}
+#intro{
+	height: 100%;
+   max-width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+	background-image: url("back.png");
+}
+#top-bar{
+	position: fixed;
+	font-size: 100%;
+	background-color: black;
+	height: 10%;
+	width: 100%;
+	opacity: 1;
+	padding-right:1%;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	z-index: 2;  
+}
+#intro-but{
+	color: white;
+	margin-left: 2%;
+	margin-right: 45%;
+}
+#about-but{
+	color: white;
+	 margin-left: 18%;
+	margin-right: 1%;
+}
+#edu-but{
+	color: white;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#skill-but{
+	color: white;
+	margin-left: 1%;
+	margin-right: 0%;
+}
+.top-but{
+	
+	opacity: 1;
+	text-decoration: none;
+	font-size: 100%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bolder;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+
+#pfp{
+	position: relative;
+	top: 20%;
+	margin-right: auto;
+    margin-left: auto;
+    width: 12%;
+    height: 28%;
+    padding: 10px;
+}
+.center{
+  margin-left: 38%;
+  margin-right: 30%;
+  
+}
+#pfp img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+}
+#name{
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	position: relative;
+	top: 20%;
+	margin-right: auto;
+    margin-left: auto;
+	color: white;
+}
+#socialbox{
+	position: relative;
+	top: 20%;
+	left: 4%;
+  	color: white;
+	font-size: 200%
+}
+
+#cont #intro .socialbox i{
+    font-size: 100%;
+    text-align: center;
+    color: white;
+    margin: 0 1% 1% 1%;
+    transition-duration: 0.3s;
+}
+#about{
+	
+    background-position: center;
+    background-attachment: scroll;
+	background-image: url("about.jpg");
+	background-size: cover;
+	padding: 5%;
+
+}
+#about h2{
+	display: inline;
+	border-left: 5px solid black;
+	padding-left: 5px;
+	font-weight: bolder;
+
+}
+#about i{
+	font-size: 220%;
+	margin-right: 5px;
+}
+#education{
+	
+    background-position: center;
+    background-attachment: scroll;
+	background-image: url("edu.jpg");
+	background-size: cover;
+	padding: 5%;
+
+}
+#education h2{
+	display: inline;
+	border-left: 5px solid black;
+	padding-left: 5px;
+	font-weight: bolder;
+
+}
+#education i{
+	font-size: 220%;
+	margin-right: 5px;
+}
+#edu-cont{
+	display: flex;
+	flex-direction: column;
+	margin-top:20%;
+	margin-right: 0%;
+}
+.box{
+	padding: 5px;
+    width: 40%;
+    min-height: 150px;
+    
+    
+}
+#box-1{
+	position: relative;
+    left: 5%;
+    text-align: right;
+}
+#divider{
+	position: absolute;
+	left: 48%;
+    width: 0;
+    border: 1px dashed black;
+    height: 120%;
+    z-index: 1;
+}
+ 
+#jet i{
+	font-size: 150%;
+	transform: rotate(90deg);
+	position: absolute;
+	left: 0%;
+	right: 0%;
+}
+#jet{
+	position: sticky;
+    top: 370px;
+    margin-top: -16px;
+	z-index: 2;
+}
+#box-2{
+	margin-top: 5%;
+	position: relative;
+    left: 50%;
+    text-align: left;
+}
+#box-3{
+	margin-top: 5%;
+	position: relative;
+    left: 5%;
+    text-align: right;
+}
+#skills{}
+
