@@ -16,7 +16,7 @@ html{
 }
 #intro{
 	height: 100%;
-   max-width: 100%;
+   	max-width: 100%;
     background-size: contain;
     background-position: center;
     background-attachment: scroll;
@@ -66,15 +66,16 @@ html{
     letter-spacing: 1px;
 }
 
-
+#me{
+	position: relative;
+	top: 20%;
+}
 #pfp{
 	position: relative;
 	top: 20%;
-	margin-right: auto;
-    margin-left: auto;
-    width: 12%;
-    height: 28%;
-    padding: 10px;
+	height: 8rem;
+	width: 8rem;
+	margin: auto;
 }
 .center{
   margin-left: 38%;
@@ -82,7 +83,7 @@ html{
   
 }
 #pfp img {
-    height: 100%;
+	height: 100%;
     width: 100%;
     border-radius: 50%;
     
@@ -119,7 +120,7 @@ html{
 	padding: 5%;
 
 }
-#about h2{
+.sec-head{
 	display: inline;
 	border-left: 5px solid black;
 	padding-left: 5px;
@@ -139,18 +140,19 @@ html{
 	padding: 5%;
 
 }
-#education h2{
+/*#education h2{
 	display: inline;
 	border-left: 5px solid black;
 	padding-left: 5px;
 	font-weight: bolder;
 
-}
+}*/
 #education i{
 	font-size: 220%;
 	margin-right: 5px;
 }
 #edu-cont{
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	margin-top:20%;
@@ -173,16 +175,14 @@ html{
 	left: 48%;
     width: 0;
     border: 1px dashed black;
-    height: 100%;
+    height: 95%;
     z-index: 1;
 }
  
 #jet i{
 	font-size: 150%;
 	transform: rotate(90deg);
-	position: absolute;
-	left: 0%;
-	right: 0%;
+	display: block;
 }
 #jet{
 	position: sticky;
@@ -202,5 +202,123 @@ html{
     left: 5%;
     text-align: right;
 }
-#skills{}
+#skills{
+	padding: 5%;
+}
 
+#skills i{
+	font-size: 220%;
+	margin-right: 5px;
+}
+#subhead-1 i{
+	font-size: 140%;
+	margin-right: 5px;
+}
+#subhead-1{
+	margin-top: 5%;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 140%;
+	text-align: center;
+}
+#programming{
+	margin-top: 7%; 
+}
+
+.skillbox{
+	display: flex;
+	flex-direction:  row;
+	margin-top: 5%;
+	justify-content: center;																						
+}
+.child{
+	font-size: 120%;
+	font-weight: bold;						
+	padding: 1%;
+	border-style: solid;
+	border-radius: 25%;
+	margin-left: 3%;
+	margin-right: 5%;
+	text-align: center;
+}
+#webdev{
+	margin-top: 5%; 
+}
+#subhead-2 i{
+	font-size: 140%;
+	margin-right: 5px;
+}
+#subhead-2{
+	margin-top: 5%;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 140%;
+	text-align: center;
+}
+/*#skills h2{			
+	display: inline;
+	border-left: 5px solid black;
+	padding-left: 5px;
+	font-weight: bolder;
+
+}*/
+@media screen and (max-width: 1200px){
+	html{
+		height: 100vh;
+    	width: 100vw;
+		font-size: 17px;	
+	}
+}
+@media screen and (max-width: 960px){
+	html{
+		height: 100vh;
+    	width: 100vw;
+		font-size: 15px;	
+	}
+}
+@media screen and (max-width: 900px){
+	html{
+		height: 100vh;
+    width: 100vw;
+
+		font-size: 13px;	
+	}
+}
+@media screen and (max-width: 765px){
+	html{
+		height: 100vh;
+    width: 100vw;
+
+		font-size: 11px;	
+	}
+}
+@media screen and (max-width: 660px){
+	html{
+		height: 100vh;
+    width: 100vw;
+
+		font-size: 9px;	
+	}
+}
+@media screen and (max-width: 565px){
+	html{
+		height: 100vh;
+    width: 100vw;
+
+		font-size: 7px;	
+	}
+}
+@media screen and (max-width: 465px){
+	html{
+		height: 100vh;
+    	width: 100vw;
+		font-size: 6px;	
+	}
+}
+@media screen and (max-width: 415px){
+	html{
+		height: 100vh;
+    	width: 100vw;
+		font-size: 5px;	
+	}
+}
