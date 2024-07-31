@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <h1 class="post-headline">Simeet Nayan</h1>
+        <h3 class="post-description">Software Engineer @ Wells Fargo</h3>
+
+        <div class="links scroll">
+        <a href="/">Home</a>
+        <a href="/projects/">Projects</a>
+        <a href="/blog/">Blog</a>
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Deriving Naive Bayes from Scratch | Simeet Nayan</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Deriving Naive Bayes from Scratch" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Naive Bayes is one of the most popular classifiers in Machine Learning. To be more specific, it refers to a family of algorithms, all based on some common principles. In this article, we will be building up the mathematics behind this classifier from the scratch. Read the blog on medium." />
+<meta property="og:description" content="Naive Bayes is one of the most popular classifiers in Machine Learning. To be more specific, it refers to a family of algorithms, all based on some common principles. In this article, we will be building up the mathematics behind this classifier from the scratch. Read the blog on medium." />
+<link rel="canonical" href="http://localhost:4000/blog/2021/naive-bayes/" />
+<meta property="og:url" content="http://localhost:4000/blog/2021/naive-bayes/" />
+<meta property="og:site_name" content="Simeet Nayan" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-07-17T00:00:00+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Deriving Naive Bayes from Scratch" />
+<meta name="twitter:site" content="@" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-07-17T00:00:00+05:30","datePublished":"2021-07-17T00:00:00+05:30","description":"Naive Bayes is one of the most popular classifiers in Machine Learning. To be more specific, it refers to a family of algorithms, all based on some common principles. In this article, we will be building up the mathematics behind this classifier from the scratch. Read the blog on medium.","headline":"Deriving Naive Bayes from Scratch","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/2021/naive-bayes/"},"url":"http://localhost:4000/blog/2021/naive-bayes/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <link rel="manifest" href=site.webmanifest">
+
+
+        <!-- MathJax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+     processEscapes: true
+    }
+  });
+</script>
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    </head>
+
+    <body>
+        <main>
+            <article>
+                <h1 class="post-headline">Deriving Naive Bayes from Scratch</h1>
+<p class="meta"><small>July 17, 2021</small></p>
+
+<p>Naive Bayes is one of the most popular classifiers in Machine Learning. To be more specific, it refers to a family of algorithms, all based on some common principles. In this article, we will be building up the mathematics behind this classifier from the scratch. <a href="https://medium.com/@simeetnayan81/deriving-naive-bayes-from-scratch-945004ce5053" target="_blank" rel="noopener noreferrer">Read the blog on medium.</a></p>
+
+
+<!-- Comments only for posts -->
+
+    
+
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> © Simeet Nayan 2024
+                    | This site is powered by Jekyll.
+                    Last updated on 31 July 2024
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons">
+<a title="" class="social-button email" itemprop="email" href="mailto:%73%69%6D%65%65%74%6E%61%79%61%6E.%38%31%30%30@%67%6D%61%69%6C.%63%6F%6D" target="_blank">
+<i class="far fa-envelope"></i>
+</a><a title="" class="social-button linkedin" href="https://www.linkedin.com/in/linkedin.com/in/simeetnayan" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i>
+</a><a title="" class="social-button github" href="https://www.github.com/github.com/simeetnayan81" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+</a><a title="" class="social-button twitter" href="https://www.twitter.com/x.com/SimeetNayan" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-twitter"></i>
+</a>
+</div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+
+    </body>
+
+</html>
