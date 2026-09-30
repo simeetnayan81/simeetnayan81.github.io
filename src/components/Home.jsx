@@ -12,14 +12,6 @@ function Home() {
           <div className="profile-content">
             <h2 className="title">Hello, I'm Simeet</h2>
             <h3 className="subtitle">Software Engineer @ Wells Fargo</h3>
-            <p className="lede">
-              I ship machine learning in production, and I build the systems around it: feature pipelines, scoring services, RL environments, and vector search.
-            </p>
-            <div className="focus-tags">
-              <span className="tag">Production ML</span>
-              <span className="tag">Reinforcement Learning</span>
-              <span className="tag">ML Systems</span>
-            </div>
             <div className="cta-buttons">
               <Link to="/projects" className="btn primary">View Projects</Link>
               <a
@@ -38,10 +30,13 @@ function Home() {
         <div className="about">
           <h3>About</h3>
           <p>
-            At <strong>Wells Fargo</strong> I work on everyday banking product recommendations
-            (checking, savings, autopay, overdraft, cards) for <strong>32M+</strong> customers,
-            and on the transactions fraud prevention team. As an intern I trained a deep
-            learning model for mortgage prepayment risk.
+            At <strong>Wells Fargo</strong> I build cryptocurrency trading for millions of
+            mobile users: native iOS in Swift and SwiftUI, and low-latency Java and Spring Boot
+            services for quote streaming, order execution, market data, and portfolios.
+            I also built a recurring-payment recommendation engine in Python (pandas, scikit-learn)
+            and serve the ranking model from Java, with p99 latency under <strong>200 ms</strong>.
+            I wrote a client-side fuzzing framework that replays edge-case responses against the UI.
+            As an intern I trained a deep learning model for mortgage prepayment risk prediction.
           </p>
           <p>
             Outside work I design ML infrastructure. <strong>ODSE</strong> is an OpenEnv-compatible RL sandbox
@@ -65,24 +60,24 @@ function Home() {
           <h3>Skills &amp; Technologies</h3>
           <ul className="skill-groups">
             <li>
-              <strong>Machine Learning:</strong> PyTorch, scikit-learn, NumPy, Pandas, Reinforcement Learning
+              <strong>Languages:</strong> Python, C++, Java, Swift, JavaScript, SQL
             </li>
             <li>
-              <strong>Languages:</strong> Python, C++, Java, Swift, SQL
+              <strong>Machine Learning:</strong> PyTorch, scikit-learn, NumPy, pandas, Reinforcement Learning
             </li>
             <li>
-              <strong>Production &amp; serving:</strong> FastAPI, Kafka, Redis, PostgreSQL, Docker, Linux
+              <strong>Mobile and serving:</strong> SwiftUI, Spring Boot, FastAPI, Kafka, Redis, PostgreSQL, Docker, Git, Linux, CI/CD
             </li>
           </ul>
           <div className="skill-tags">
+            <span className="tag">Swift</span>
+            <span className="tag">SwiftUI</span>
+            <span className="tag">Java</span>
+            <span className="tag">Spring Boot</span>
             <span className="tag">Python</span>
-            <span className="tag">PyTorch</span>
-            <span className="tag">Reinforcement Learning</span>
             <span className="tag">scikit-learn</span>
-            <span className="tag">Kafka</span>
-            <span className="tag">FastAPI</span>
+            <span className="tag">PyTorch</span>
             <span className="tag">Docker</span>
-            <span className="tag">SQL</span>
           </div>
         </div>
       </div>
